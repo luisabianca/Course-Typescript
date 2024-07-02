@@ -2,4 +2,4 @@
 function normalizeText(text) {
     return text.trim().toLowerCase();
 }
-console.log(normalizeText("TESTE2"));
+console.log(normalizeText("GOSTOSA"));
