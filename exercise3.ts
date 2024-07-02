@@ -1,11 +1,11 @@
-function toNumber(item: number | string) {
-  if (typeof item === 'number') {
-    return  10;
+function toNumber(value: number | string) {
+  if (typeof value === 'number') {
+    return  value;
   }
-  else if (typeof item === 'string') {
-    return 20;
+  else if (typeof value === 'string') {
+    return Number(value);
   }
-  else (typeof item !== 'number' && item !== 'string') {
+  else (typeof value !== 'number' && value !== 'string') {
     throw 'value deve ser um número ou uma string'
   }
 }
